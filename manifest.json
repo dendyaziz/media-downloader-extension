@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "version": "1",
+    "version": "1.0.0",
     "name": "Tambah ke Registry Miniapoly",
     "background": { 
         "service_worker": "background.bundle.js"
