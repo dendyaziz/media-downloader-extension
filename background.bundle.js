@@ -19,7 +19,7 @@ chrome.action.onClicked.addListener(async function (tab) {
         'border: none;height: 100%;width: 100%;position: fixed;z-index: 2147483647;top: 0px;left: 0px;background-color: transparent;clip: auto;overflow: hidden;opacity: 1;display: block !important;visibility: visible;'
       );
       iframe.setAttribute('scrolling', 'no');
-      const frames = await `https://miniapoly.techx.id/registry/create-external-product/dekstop?url=${url}`
+      const frames = await `https://miniapoly.com/registry/create-external-product/dekstop?url=${url}`
       iframe.src = frames;
 
       document.body.appendChild(iframe);
